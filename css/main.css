@@ -129,6 +129,11 @@ header a {
 
 nav {
   gap: 2.5em;
+
+}
+
+.navbar {
+  width: 32%;
 }
 
 header, nav {
@@ -173,8 +178,8 @@ footer .social-icons {
 /* -------------------- Base Hero Styles -------------------- */
 
 .background-img {
-  background: url(../img/frontend-wallpaper.jpeg) ;
-  background-size: contain no-repeat;
+  background: url(../img/frontend-wallpaper-min\ \(1\).jpeg) fixed;
+  background-size: cover ;
   overflow: auto;
 }
 
@@ -182,7 +187,7 @@ footer .social-icons {
   /*display: flex;*/
   justify-content: center;
   padding: 0 200px 120px 65px;
-  margin: 15px 90px 20px 90px;
+  margin: 15px 90px 30px 90px;
 }
 
 .hero h3 {
