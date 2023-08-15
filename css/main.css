@@ -141,18 +141,18 @@ header, nav {
 }
 
 nav a {
-  color: inherit;
+  color: #ffe8d6;
   font-size: 1em;
   text-decoration: none;
-  border: 2px solid #ffffff2a;
-  background-color: #ffffff94;
+  border: 2px solid #F19494;
+  background-color: #453E4F;
   border-radius: 20px;
   padding: 5px;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.8em;
   font-weight: 400;
 }
 
@@ -206,23 +206,26 @@ footer .social-icons {
 } 
 
 .hero span {
-  border: 2px solid #ffffff2a;
-  background-color: #ffffff94;
+  color: #ffe8d6;
+  border: 2px solid #F19494;
+  background-color: #453E4F;
   border-radius: 20px;
   padding: 5px;
 }
 
 .hero p {
-  margin-top: 1em;
-  max-width: 500px;
-  font-size: 22px;
+  margin-top: 2.6em;
+  max-width: 60%;
+  font-size: 18px;
+  color: inherit;
 }
 
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 4em;
   font-weight: 300;
-  margin-bottom: 0;
+  margin: 1.2em 0 0.4em;
+  color: #ffe8d6;
 }
 
 /* -------------------- Base Projects Styles -------------------- */
@@ -230,7 +233,7 @@ h1 {
 .projects {
   display: flex;
   justify-content: center;
-  background-color: #E8EFF7;
+  background-color: #453e4f;
 }
 
 .projects-wrapper {
@@ -242,36 +245,54 @@ h1 {
 }
 
 .project-wrapper {
-  background-color: #453E4F;
+  background-color: #E8EFF7;
   align-items: center;
-  border: 2px solid lightgray;
+  border: 2px solid #e9b14c;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.1), 0 23px 30px rgba(17,24,39,.2);
+  box-shadow: 0 4px 12px rgba(233,177,76,.7), 0 23px 30px rgba(17,24,39,.2);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   margin-top: 30px;
   padding: 30px;
   width: 300px;
   overflow: auto;
-  color:#ffffff94;
+  color:#333;
 }
 
 .projects h2 {
   display: flex;
   justify-content: center;
+  margin: 24px auto;
+  max-width: 20%; 
+  color: #E9B14C;
+  border-top: #e9b14c 3px solid;
+  border-bottom: #e9b14c 3px solid;
 }
 
 .project-wrapper p {
-  font-size: .7em;
+ /* font-size: .8em;*/
 }
 
 .project-wrapper h4 {
 text-decoration: underline;
+font-size: 1.2em;
+color: #333;
+margin: 0;
+padding: 10px;
+}
+
+.project-wrapper span {
+  text-decoration: underline;
+  font-size: 1.3em;
+/*  background-color: yellow;
+  border-radius: 10px;
+  padding: 3px; */
 }
 
 .project-img {
   align-items: center;
+  border: #E9B14C 1.5px solid;
   border-radius: 10px;
   /*height: 310px;*/
 }
