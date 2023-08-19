@@ -371,6 +371,7 @@ padding: 10px;
   
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   padding: 25px 0;
 }
 
@@ -566,10 +567,10 @@ footer .social-icons {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* Style adjustments for viewports that meet the condition */
 
- /* header {
+  /*header {
     display: flex;
     justify-content: space-between;
   }
@@ -578,6 +579,13 @@ footer .social-icons {
     justify-content: space-between;
   } */
 
+
+
+/************  Hero Section ***************/
+
+.hero {
+  padding: 0px;
+}
 
 
 /************  About Section ***************/
