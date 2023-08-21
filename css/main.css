@@ -91,7 +91,7 @@ textarea {
  /* -------------------- General Styles -------------------- */
 * {
    box-sizing: border-box;
-}  
+}
 
 html {
   scroll-behavior: smooth; 
@@ -156,6 +156,10 @@ nav a {
   margin-right: 1.5em;
 }
 
+.contact-tab {
+  margin: 0;
+}
+
 /* -------------------- Base Hero Styles -------------------- */
 
 .background-img {
@@ -171,7 +175,6 @@ nav a {
 
 .hero-content-wrapper {
   width: 50%;
-  margin-left: 2em;
   background: rgba(69, 62, 79, 0.8);
   border-radius: 20px;
   padding: 20px;
@@ -539,18 +542,38 @@ footer .social-icons {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 600px) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 768px) {
 
 /************  Hero Section ***************/
 
 .hero {
   padding: 0px;
+  display: flex;
+  justify-content: center;
 }
-
 /************  About Section ***************/
 
 }
+
+@media only screen and (max-width: 400px) {
+  /************  Hero Section ***************/
+
+.hero-content-wrapper {
+    width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 374px) {
+  /************  Hero Section ***************/
+
+nav a {
+    margin-right: 5px;
+}
+
+}
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
