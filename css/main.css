@@ -159,7 +159,7 @@ nav a {
 /* -------------------- Base Hero Styles -------------------- */
 
 .background-img {
-    background: url(../img/frontend-wallpaper-min\ \(1\).jpeg) fixed;
+  background: url(../img/frontend-wallpaper-min\ \(1\).jpeg) fixed;
   background-size: cover ;
   overflow: auto;
 }
@@ -167,6 +167,15 @@ nav a {
 .hero {
   padding: 0 200px 120px 120px;
   margin: 15px auto 30px auto;
+}
+
+.hero-content-wrapper {
+  width: 50%;
+  margin-left: 2em;
+  background: rgba(69, 62, 79, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  border: 3px solid #f19494;
 }
 
 .hero h3 {
@@ -184,17 +193,17 @@ nav a {
 
 .hero p {
   margin-top: 2.6em;
-  max-width: 60%;
   font-size: 18px;
-  color: inherit;
+  color: #ffe8d6;
+  max-width: 80%;
 }
 
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 4em;
   font-weight: 300;
-  margin: 1.2em 0 0.4em;
-  color: #FFE8D6;
+  margin: .5em 0 0.4em;
+  color: #ffe8d6;
 }
 
 /* -------------------- Base Projects Styles -------------------- */
@@ -232,19 +241,18 @@ h1 {
 .projects h2 {
   display: flex;
   justify-content: center;
-  margin: 24px auto;
-  max-width: 20%; 
+  margin: 24px auto; 
   color: #E9B14C;
   border-top: #E8EFF7 3px solid;
   border-bottom: #E8EFF7 3px solid;
 }
 
 .project-wrapper h4 {
-text-decoration: underline;
-font-size: 1.2em;
-color: #333;
-margin: 0;
-padding: 10px;
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #333;
+  margin: 0;
+  padding: 10px;
 }
 
 .project-wrapper span {
@@ -259,7 +267,6 @@ padding: 10px;
   align-items: center;
   border: #E9B14C 1.5px solid;
   border-radius: 10px;
-  /*height: 310px;*/
 }
 
 #sticky-notes-img {
@@ -291,7 +298,6 @@ padding: 10px;
   display: flex;
   justify-content: center;
   margin: 24px auto;
-  max-width: 20%;
   color: #453e4f;
   border-top: #453E4F 3px solid;
   border-bottom: #453E4F 3px solid;
@@ -326,18 +332,10 @@ padding: 10px;
   background-color: #E8EFF7;
 }
 
-.knowledge .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
-
 .knowledge h2 {
   display: flex;
   justify-content: center;
   margin: 24px auto;
-  max-width: 20%;
   color: #453e4f;
   border-top: #453E4F 3px solid;
   border-bottom: #453E4F 3px solid;
@@ -384,30 +382,30 @@ padding: 10px;
 .contact {
   display: flex;
   flex-direction: row;
-  background: #FFE8D6;
+  background: #453E4F;
 }
 
 .contact h2 {
   display: flex;
   justify-content: center;
   margin: 24px auto;
-  max-width: 20%;
-  color: #709d9a;
-  border-top: #453E4F 3px solid;
-  border-bottom: #453E4F 3px solid;
+  color: #e9b14c;
+  border-top: #e8eff7 3px solid;
+  border-bottom: #e8eff7 3px solid;
 }
 
 .social-div h3 {
   font-size: 1em;
   font-family: 'Noto Serif', serif;
   margin: 0;
-
+  color: #e9b14c;
 }
 
 .contact h4 {
   display: flex;
   justify-content: center;
   font-size: 1.3em;
+  color: #e8eff7;
 }
 
 .contact p {
@@ -417,11 +415,15 @@ padding: 10px;
 .contact a {
   text-decoration: none;
   padding-right: 10px;
-  color: #709d9a;
+  color: #E8EFF7;
+}
+
+.contact span {
+  color: #e9b14c;
 }
 
 .email-word span {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-content-wrapper {
@@ -445,6 +447,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   margin-top: 20em;
+  color: #e9b14c;
 }
 
 
@@ -539,31 +542,13 @@ footer .social-icons {
 @media only screen and (max-width: 600px) {
   /* Style adjustments for viewports that meet the condition */
 
-  /*header {
-    display: flex;
-    justify-content: space-between;
-  }
-  .navbar a {
-    display: flex;
-    justify-content: space-between;
-  } */
-
-
-
 /************  Hero Section ***************/
 
 .hero {
   padding: 0px;
 }
 
-
 /************  About Section ***************/
-
-
-
-
-
-
 
 }
 
